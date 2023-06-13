@@ -1,0 +1,38 @@
+.header__container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title__container {
+  display: flex;
+  flex-direction: row;
+  height: 18rem;
+  width: 100%;
+  background-color: var(--primary_color);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 76%);
+}
+
+.title__container h1{
+  margin-top: 1.2rem;
+  margin-left: 1.2rem;
+  font-size: var(--lg);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: var(--black);
+}
+
+.title__container img{
+  margin-top: 1.2rem;
+  width: 6rem;
+  height: 6rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header__sit_villager{
+  position: absolute;
+  right: 1.2rem;
+  bottom: -5rem;
+  width: 17rem;
+  rotate: 6deg;
+}

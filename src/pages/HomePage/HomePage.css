@@ -1,0 +1,31 @@
+.main_images__container{
+  position: relative;
+}
+
+.skeleton__image{
+  position: absolute;
+  top: 2.4rem;
+  left: 4rem;
+  width: 6rem;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.barbarian__image{
+  position: absolute;
+  top: -4rem;
+  right: 4rem;
+  width: 15rem;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.functions__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin: 13.4rem 1.2rem 0 1.2rem;
+  margin-bottom: 4rem;
+}
