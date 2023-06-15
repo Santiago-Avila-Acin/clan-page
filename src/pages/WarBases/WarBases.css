@@ -1,0 +1,15 @@
+.list_all_cards__container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8.8rem;
+  margin-bottom: 4rem;
+  gap: 4rem;
+}
+
+.barbarian_sword__image{
+  position: absolute;
+  top: -11.6rem;
+  left: -1.2rem;
+  width: 14rem;
+}

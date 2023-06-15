@@ -16,7 +16,7 @@ export const SingleFunction: React.FC<SingleFunctionProps> = ({ functionData }) 
   const navigate = useNavigate();
 
   const handleOptionClick = (slug: string) => {
-    navigate(`/${slug}`);
+    navigate(`/${slug}/select-th`);
   };
 
   return (

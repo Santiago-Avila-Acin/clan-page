@@ -1,5 +1,5 @@
 import { Header } from "../components/Header/Header";
-import { NotFound } from "../components/NotFound";
+import { NotFound } from "../components/NotFound/NotFound";
 import { HomePage } from "../pages/HomePage/HomePage";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { SelectTh } from "../pages/SelectTh/SelectTh";
@@ -17,13 +17,11 @@ export const App = () => {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/:type" element={<SelectTh />}>
-          <Route path="bases-guerra" element={<WarBases />} />
-          <Route path="bases-farming" element={<FarmingBases />} />
-          <Route path="ataques" element={<Attacks />} />
-          <Route path="guias" element={<Guides />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
+        <Route path="/:slug/select-th" element={<SelectTh />} />
+        <Route path="bases-guerra/:slug" element={<WarBases />} />
+        <Route path="bases-farming/:slug" element={<FarmingBases />} />
+        <Route path="ataques/:slug" element={<Attacks />} />
+        <Route path="guias/:slug" element={<Guides />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

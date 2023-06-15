@@ -1,7 +1,6 @@
 import { ActiveClan } from "../../components/ActiveClan/ActiveClan";
 import { JoinButton } from "../../components/JoinButton/JoinButton";
 import { SingleFunction } from "../../components/SingleFunction/SingleFunction";
-import { useNavigate } from "react-router-dom"
 import "./HomePage.css"
 
 import skeleton from "../../assets/skeleton.png"
