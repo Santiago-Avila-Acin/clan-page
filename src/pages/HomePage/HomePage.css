@@ -30,6 +30,209 @@
   margin-bottom: 4rem;
 }
 
+.barbarian_sword__image{
+  position: absolute;
+  top: -11.6rem;
+  left: -1.2rem;
+  width: 14rem;
+}
+
 .animated_gif{
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width:342px){
+  .skeleton__image{
+    display: none;
+  }
+
+  .barbarian__image{
+    right: 8rem;
+  }
+}
+
+@media screen and (max-width:340px){
+  .barbarian__image{
+    right: 8rem;
+  }
+}
+
+@media screen and (min-width:410px){
+  .skeleton__image{
+    left: 8.4rem;
+  }
+
+  .barbarian__image{
+    right: 8.4rem;
+  }
+}
+
+@media screen and (min-width:500px){
+  .skeleton__image{
+    left: 14rem;
+  }
+
+  .barbarian__image{
+    right: 12.4rem;
+  }
+}
+
+@media screen and (min-width:523px){
+  .skeleton__image{
+    left: 8rem;
+  }
+
+  .barbarian__image{
+    right: 6.4rem;
+  }
+
+  .barbarian_sword__image{
+    left: 0rem;
+  }
+
+  .animated_gif{
+    width: 80%;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width:654px){
+  .skeleton__image{
+    left: 12rem;
+  }
+
+  .barbarian__image{
+    right: 10rem;
+  }
+}
+
+@media screen and (min-width:704px){
+  .skeleton__image{
+    left: 8rem;
+  }
+
+  .barbarian__image{
+    right: 5.6rem;
+  }
+
+  .barbarian_sword__image{
+    left: 2rem;
+  }
+
+}
+
+@media screen and (min-width:804px){
+  .skeleton__image{
+    left: 12rem;
+  }
+
+  .barbarian__image{
+    right: 10rem;
+  }
+  
+  .animated_gif{
+    width: 80%;
+    height: 8rem;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width:900px){
+  .skeleton__image{
+    left: 16rem;
+  }
+
+  .barbarian__image{
+    right: 14rem;
+  }
+
+  .barbarian_sword__image{
+    left: 8rem;
+  }
+
+  .animated_gif{
+    width: 70%;
+    height: 8rem;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width:970px){
+  .skeleton__image{
+    left: 20rem;
+  }
+
+  .barbarian__image{
+    right: 18rem;
+  }
+
+  .barbarian_sword__image{
+    left: 16rem;
+  }
+
+  .animated_gif{
+    width: 60%;
+    height: 8rem;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width:1050px){
+  .skeleton__image{
+    left: 24rem;
+  }
+
+  .barbarian__image{
+    right: 22rem;
+  }
+}
+
+@media screen and (min-width:1150px){
+  .skeleton__image{
+    left: 28rem;
+  }
+
+  .barbarian__image{
+    right: 26rem;
+  }
+
+  .barbarian_sword__image{
+    left: 26rem;
+  }
+
+  .animated_gif{
+    width: 50%;
+    height: 8rem;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .skeleton__image{
+    left: 36rem;
+  }
+
+  .barbarian__image{
+    right: 34rem;
+  }
+}
+
+@media screen and (min-width:1300px){
+  .skeleton__image{
+    left: 42rem;
+  }
+
+  .barbarian__image{
+    right: 40rem;
+  }
+
+  .barbarian_sword__image{
+    left: 34rem;
+  }
+
+  .animated_gif{
+    width: 44%;
+    height: 8rem;
+    align-self: center;
+  }
 }
