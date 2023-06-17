@@ -16,7 +16,6 @@ export const SelectTh = () => {
     const currentSlug = window.location.pathname.substring(1);
     const firstRoute = currentSlug.split('/')[0];
     setSlug(firstRoute);
-    console.log(slug);
   }, [slug]);
   
   const navigate = useNavigate();

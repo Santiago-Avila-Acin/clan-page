@@ -18,11 +18,9 @@ export const FarmingBases = () => {
     const currentSlug = window.location.pathname.substring(1);
     const firstRoute = currentSlug.split('/')[1];
     setSlug(firstRoute);
-    console.log(slug);
   }, [slug]);
 
   const thSelected: FarmingBases[] | undefined = (dataBase as Database)[slug]?.farmingBases; 
-  console.log(thSelected)
   return (
     <div className="list_all_cards__container">
       <img className="barbarian_sword__image" src={barbarianSword} alt="" />

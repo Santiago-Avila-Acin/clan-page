@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useLayoutEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import "./VideoCard.css";
 
@@ -10,19 +10,21 @@ export const VideoCard = ({ url }: VideoCardProps) => {
   const isYouTubeUrl = url.includes("youtube.com") || url.includes("youtu.be");
   const [playerSize, setPlayerSize] = useState({ width: "100%", height: "auto" });
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth < 458) {
         setPlayerSize({ width: "80%", height: "16rem" });
-      } else if (screenWidth < 800){
+      } else if (screenWidth < 800) {
         setPlayerSize({ width: "80%", height: "30rem" });
-      } else if (screenWidth < 1000){
+      } else if (screenWidth < 1000) {
         setPlayerSize({ width: "80%", height: "40rem" });
-      }else{
+      } else {
         setPlayerSize({ width: "70%", height: "56rem" });
       }
     };
+
+    handleResize();
 
     window.addEventListener("resize", handleResize);
     return () => {

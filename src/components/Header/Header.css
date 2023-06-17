@@ -29,6 +29,15 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* .discord_logo{
+  position: absolute;
+  height: 6.2rem;
+  top: 23rem;
+  right: 3rem;
+  margin: 1.2rem 1.2rem 0 0;
+  z-index: 2;
+} */
+
 .header__sit_villager{
   position: absolute;
   right: 1.2rem;
