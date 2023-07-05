@@ -9,7 +9,7 @@ export const Header = () => {
       <Link to="/">
         <div className="title__container">
           <h1>Guerreros Celta</h1>
-          <img src="https://api-assets.clashofclans.com/badges/512/NToNBfymiOXuDYagozs1qJ8Q529IY5vlQCtnLA0hT84.png" alt="clan logo" />
+          <img src="https://api-assets.clashofclans.com/badges/512/aLhM8azT6kgxw8F3f44lPia8jNbm7Ff_wVq_mVK7XmQ.png" alt="clan logo" />
         </div>
         {/* <img className="discord_logo" src={discordLogo} alt="" /> */}
         <img className="header__sit_villager" src={sitVillager} alt="sit villager" />
